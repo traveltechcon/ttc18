@@ -7,7 +7,7 @@ body, html {
   background-image: url(../img/bg/apod.jpg);
   background-size: cover;
   color: #eee;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Kanit", "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100%;
 }
 
@@ -33,4 +33,18 @@ img {
   width: 100%;
   text-align: center;
   padding: 40px;
+}
+
+@media (min-width: 576px) {
+  #floater {
+    top: 8rem;
+  }
+  p {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 800;
+  }
+  span {
+    font-weight: 200;
+  }
 }
