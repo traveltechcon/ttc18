@@ -205,7 +205,7 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
-            ctx.strokeStyle = 'rgba(108,68,227,'+ p.active+')';
+            ctx.strokeStyle = 'rgba(160,143,248,'+ p.active+')';
             ctx.stroke();
         }
     }
@@ -224,7 +224,7 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
             if(!_this.active) return;
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(108,68,227,'+ _this.active+')';
+            ctx.fillStyle = 'rgba(160,143,248,'+ _this.active+')';
             ctx.fill();
         };
     }
