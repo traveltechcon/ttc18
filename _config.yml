@@ -1,0 +1,21 @@
+title: Travel Tech Con 2018
+author: Maksim Izmaylov
+email: max@traveltechcon.com
+description: > # this means to ignore newlines until "baseurl:"
+  Travel Tech Con 2018 is the conference for travel startups and developers.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://traveltechcon.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: traveltechcon
+github_username: traveltechcon
+google_analytics_tracking_id: UA-78058382-2
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - README.md
+  - LICENSE
+  - gulpfile.js

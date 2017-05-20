@@ -1,0 +1,32 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body, html {
+  background-color: #2e2e2e;
+  background-image: url(../img/bg/apod.jpg);
+  background-size: cover;
+  color: #eee;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%; }
+
+img {
+  max-width: 200px; }
+
+#canvas {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5); }
+
+#floater {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 40px; }

@@ -1,0 +1,33 @@
+{
+  "name": "ttc17",
+  "version": "1.0.0",
+  "description": "Travel Tech Con 2017 Website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/traveltechcon/ttc17.git"
+  },
+  "keywords": [
+    "travel",
+    "tech"
+  ],
+  "author": "Maksim Izmaylov",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/traveltechcon/ttc17/issues"
+  },
+  "homepage": "https://github.com/traveltechcon/ttc17#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "susy": "^2.2.12"
+  }
+}
