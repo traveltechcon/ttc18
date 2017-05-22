@@ -13,6 +13,9 @@ body, html {
 img {
   max-width: 200px; }
 
+a {
+  color: #fff; }
+
 #canvas {
   position: absolute;
   z-index: 1;
@@ -47,6 +50,9 @@ img {
   background-color: #685D9F;
   border-color: #685D9F;
   text-decoration: none; }
+
+.links {
+  margin: 20px 0; }
 
 @media (min-width: 576px) {
   #floater {
