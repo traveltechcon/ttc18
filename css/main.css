@@ -54,6 +54,11 @@ a {
 .links {
   margin: 20px 0; }
 
+.sponsors {
+  margin: 100px 0; }
+  .sponsors img {
+    max-width: 150px; }
+
 @media (min-width: 576px) {
   #floater {
     top: 8rem; }
