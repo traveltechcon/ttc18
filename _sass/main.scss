@@ -6,6 +6,7 @@ body, html {
   background-color: #2e2e2e;
   background-image: url(../img/bg/apod.jpg);
   background-size: cover;
+  background-attachment: fixed;
   color: #eee;
   font-family: "Kanit", "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100%;
@@ -20,7 +21,7 @@ a {
 }
 
 #canvas {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   width: 100%;
   height: 100%;
@@ -75,7 +76,7 @@ a {
 
 @media (min-width: 576px) {
   #floater {
-    top: 8rem;
+    top: 5rem;
 
     p {
       font-size: 4em;
