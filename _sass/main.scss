@@ -67,7 +67,17 @@ a {
 }
 
 .sponsors {
-  margin-top: 100px;
+  margin: 100px 0 0 0;
+  padding: 0;
+  list-style: none;
+
+  a {
+    display: inline-block;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+  }
 
   img {
     max-width: 150px;
